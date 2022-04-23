@@ -99,3 +99,40 @@ font-family: Minhafonte, cursive;
 .slider-principal{
     width: 750px;
 }
+
+@media screen and (max-width:940px) {
+    .logo{
+        width: 20%;
+    }
+    .redessociais{
+        width: 77%;
+    }
+    .menu{
+        width: 37%;
+    }
+    .busca{
+        text-align: left;
+        width: 63%;
+    }
+    .menu ul li a{
+        font-size: 1.0em;
+    }
+}
+@media screen and (max-width:568px) {
+    .logo{
+        width: 20%;
+    }
+    .redessociais{
+        width: 77%;
+    }
+    .menu{
+        width: 37%;
+    }
+    .busca{
+        text-align: left;
+        width: 63%;
+    }
+    .menu ul li a{
+        font-size: 1.0em;
+    }
+}
