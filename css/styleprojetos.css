@@ -239,6 +239,7 @@ ul{
 }
 .fotodoprojeto{
     width: 240px;
+    height: 240px;
     border: black solid 5px;
     border-radius: 5px;
     position: relative;
