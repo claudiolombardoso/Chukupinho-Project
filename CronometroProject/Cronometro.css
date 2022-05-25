@@ -95,7 +95,7 @@ font-family: Minhafonte, cursive;
 }
 @font-face {
     font-family: Minhafonte;
-    src: url(./fonts/barbaro.ttf)
+    src: url(../fonts/barbaro.ttf)
 }
 .busca{
     background-image: url(../img/buscar.png);
@@ -159,42 +159,61 @@ ul{
     padding-bottom: 100%;
 }
 
-/*projetos*/
-
-.projects{
-    background-color: #a53d42;
-    width: 330px;
-    position: relative;
-    border-radius: 12px;
-    display: inline-block;
-    margin-left: 40px;
-    margin-top: 40px;
-}
-.projects p{
+.seucronometro{
+    max-width: 275px;
+    width: 70%;
     text-align: center;
-    color: #252323;
-    font-family: Minhafonte, cursive;
-    font-size: 1.5em;
-    text-decoration: none;
-    text-transform: uppercase;
-
+    margin-top: 25px;
+    margin-bottom: 100px;
+    color: #a53d42;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.7em;
+    text-shadow: 4px 3px 3px black;
 }
-#crono{
-    width: 240px;
-    border: black solid 5px;
-    border-radius: 5px;
-    position: relative;
-    left: 165px;
-    transform: translate(-50%, 0%);
+.bordaverde{
+    background-color: #032d00;
+    max-width: 370px;
+    width: 100%;
+    border-radius: 25px;
+    padding: 11px 6px 11px 6px;
 }
-.titulodapag{
+.bordapreta{
+    background-color: #010800;
+    max-width: 360px;
+    width: 100%;
     text-align: center;
-    color: #252323;
-    font-family: Minhafonte, cursive;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 2.5em;
-    text-decoration: underline;
-    text-transform: uppercase;
+    border-radius: 25px;
+    color: #06fd06;
+    overflow: auto;
 
 }
+#buttons{
+    max-width: 200px;
+    width: 100%;
+}
+#start{
+    height: 40px;
+    width: 32%;
+    background-color: #3eff3e;
+    color: black;
+    border: black 2px solid;
+    border-radius: 20px 10% 20px 10%;
+}
+#pause{
+    height: 40px;
+    width: 32%;
+    background-color: #e8fa45;
+    color: black;
+    border: black 2px solid;
+    border-radius: 15px;
+}
+#stop{
+    height: 40px;
+    width: 32%;
+    background-color: #ff3e3e;
+    color: black;
+    border: black 2px solid;
 
 }

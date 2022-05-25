@@ -3,15 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projetos</title>
-    <link rel="icon" href="../img/logoseco.png">
-    <link rel="stylesheet" type="text/css" href="../css/styleprojetos.css">
-    
+    <title>Cronômetro Online</title>
+    <link rel="icon" href="../img/png-transparent-digital-clock-alarm-clocks-timer-quartz-clock-clock-signage-stopwatch-countdown.png">
+    <link rel="stylesheet" type="text/css" href="./Cronometro.css">
 </head>
 <body>
     <header class="menu-principal">
         <div class="menu1">
-            <a href="../index.html"><img class="logo" src="../img/logodireito.png"></a>
+            <a href="../index.html"></a><img class="logo" src="../img//logodireito.png"></a>
             <ul class="sociallist">
                 <li><a class="links" href="https://www.youtube.com">
                     <img src="../img/yt.png">
@@ -42,33 +41,33 @@
     <div class="menubar">      
             <ul>
                 <li><a class="links" href="../index.html">Home</a></li>
-                <li><a class="links" href="./sobre.html">Sobre Nós</a></li>
-                <li><a class="links" href="./projects.html">Projetos</a></li>
-                <li><a class="links" href="./contato.html">Contato</a></li>
+                <li><a class="links" href="../arquivos html/sobre.html">Sobre Nós</a></li>
+                <li><a class="links" href="../arquivos html/projects.html">Projetos</a></li>
+                <li><a class="links" href="../arquivos html/contato.html">Contato</a></li>
             </ul>
             <input class="busca" type="text" placeholder="Buscar">         
     </div>
     
     <div id="backgg">
-        <h2 class="titulodapag">Nossos Projetos</h2>
-        <div class="projects">
-            <p>Projeto Cronometro</p>
-             <a href="../CronometroProject/ProjetoCronometro.html"><img class="fotodoprojeto" src="../img/fotocronometro.png"></a>
-                <br>
-
+    <main>
+        <div class="seucronometro">
+            <h1>Cronômetro Online</h1>
         </div>
-        <div class="projects">
-            <p>Projeto WorkShop</p>
-            <a href="https://claudiolombardoso.github.io/WorkShop-Argos/"><img class="fotodoprojeto" src="../img/fotopalestra.png"></a>
-                <br>
-        </div>
-        <div class="projects">
-            <p>Novo Projeto</p>
-        </div>
-        <div class="projects">
-            <p>Novo Projeto</p>
+        <div class="bordaverde">
+            <div class="bordapreta">
+                <h1 id="tempo">00:00:00</h1>
             </div>
+        </div>
+        <br><br>
+        <div id="buttons">
+                 <button id="start">Iniciar</button>
+                 <button id="pause">Pausar</button>
+                 <button id="stop">Parar</button>
+        </div>
+    </main>
     </div>
-    
+    </div> 
+<link rel="script" href="../jss/script.js">
+
 </body>
 </html>
